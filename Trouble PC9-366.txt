@@ -1,0 +1,9 @@
+Проблема Android Studio:
+___________________________
+Nothing to do!
+Android SDK is up to date.
+SDK emulator directory is missing (Отсутствие SDK)
+____________________________
+
+Проблемы GIT Bush:
+
