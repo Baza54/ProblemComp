@@ -1,0 +1,8 @@
+Проблемы с Android Studio:
+
+Новые проекты запускаются около 30 и более минут.
+___________________
+
+Ошибка GIT Bush:
+
+ github.com port 443 after 21101 ms: Timed out

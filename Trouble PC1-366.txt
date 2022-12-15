@@ -1,0 +1,3 @@
+Ошибка GIT Bush:
+
+ github.com port 443 after 21101 ms: Timed out

@@ -1,0 +1,18 @@
+Проблемы с Android Studio:
+
+Новые проекты не загружаются из-за проблемы с загрузой встроенной библиотеки Gradle.
+
+Starting Gradle Daemon... Gradle Daemon started in 1 s 454 ms
+
+FAILURE: Build failed with an exception.
+
+What went wrong: A problem occurred configuring root project 'pr26'.
+Could not resolve all files for configuration ':classpath'. Could not download trove4j-1.0.20181211.jar (org.jetbrains.intellij.deps:trove4j:1.0.20181211) > Could not get resource 'https://plugins.gradle.org/m2/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.jar'. > Could not GET 'https://plugins.gradle.org/m2/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.jar'. > Connect to plugins.gradle.org:443 [plugins.gradle.org/104.18.190.9, plugins.gradle.org/104.18.191.9] failed: Connection timed out: connect 
+___________________
+Скачанный проект из GIT:
+Проблема с автоматической загрузой более новых версий Gradle.
+___________________
+
+Ошибка GIT Bush:
+
+ github.com port 443 after 21101 ms: Timed out
