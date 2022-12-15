@@ -1,0 +1,43 @@
+Ошибка Android Studio:
+
+Новый проект:
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all dependencies for configuration ':app:debugRuntimeClasspath'.
+Could not determine artifacts for androidx.drawerlayout:drawerlayout:1.0.0
+Could not get resource 'https://dl.google.com/dl/android/maven2/androidx/drawerlayout/drawerlayout/1.0.0/drawerlayout-1.0.0.aar'.
+Could not HEAD 'https://dl.google.com/dl/android/maven2/androidx/drawerlayout/drawerlayout/1.0.0/drawerlayout-1.0.0.aar'.
+Connect to dl.google.com:443 [dl.google.com/74.125.205.190, dl.google.com/74.125.205.136, dl.google.com/74.125.205.93, dl.google.com/74.125.205.91] failed: Connection timed out: connect
+Connection timed out: connect
+(Не устанавливает библиотеки из за проблемы подключения к сайтам)
+_______________________________________________________
+Проект скачанный из github:
+
+
+Build file 'C:\Users\mobil\pr26\build.gradle' line: 3
+
+Plugin [id: 'com.android.application', version: '7.3.3', apply: false] was not found in any of the following sources:
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.plugins.UnknownPluginException: Plugin [id: 'com.android.application', version: '7.3.3', apply: false] was not found in any of the following sources:
+
+- Gradle Core Plugins (plugin is not in 'org.gradle' namespace)
+- Plugin Repositories (could not resolve plugin artifact 'com.android.application:com.android.application.gradle.plugin:7.3.3')
+  Searched in the following repositories:
+    Gradle Central Plugin Repository
+    Google
+MavenRepo
+at org.jetbrains.plugins.gradle.model.ProjectImportAction.execute(ProjectImportAction.java:116)
+	at org.jetbrains.plugins.gradle.model.ProjectImportAction.execute(ProjectImportAction.java:42)
+_______________________________________________________
+Ошибка GIT Bush:
+
+ github.com port 443 after 21305 ms: Timed out
+
+
+
